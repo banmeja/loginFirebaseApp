@@ -1,0 +1,25 @@
+15:48 5/09/2019
+video: creacion del proyecto
+1 crear carpeta
+2 crear el proyecto: ng new loginApp --rounting --style scss
+3 abrir la carpeta desde consola
+4 crear repositorio en github
+5 copiar los comandos y pegarlos en la consoloa del paso 3
+6 presionar enter para crear la rama master y subir los archivos de la carpeta 
+7 instalar npm install --save bootstrap@4.0.0 popper.js jquery font-awesome bootswatch
+8 abrir el editor de codigo, y agregar en angular.json los estilos 
+:"../node_modules/bootswach/dist/"
+  "../node_modules/bootswach/dist/simplex/bootstrap.css",
+              "../node_modules/font-awesome/css/font-awesome.css",
+9 agregar scripts : jquery
+https://www.gurustop.net/blog/2016/11/18/3821/jquery-angular2-angularcli-how-to
+https://stackoverflow.com/questions/50280975/jquery-not-working-in-angular-6-error-enoent-no-such-file-or-directory-open
+
+video: creacion de componentes:
+1 ejecutar
+ng g c componentes/homePage
+ng g c componentes/navbar para la barra de navegacion
+ng g c componentes/registerPage  para la pagina de registro
+ng g c componentes/loginPage para la pagina de login
+ng g c componentes/privatePage   para eventos privados -sucesos
+ng g c componentes/notFoundPage para pagina NotFound
