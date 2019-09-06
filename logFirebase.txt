@@ -30,3 +30,16 @@ video 3: creacion de navbar y routing
 3 escoger un navbar de https://bootswatch.com/ o diseñar uno
 4 para añadir una ruta en el html: routerLink="/login"
 5 creacion de las rutas en app-routing.module.ts
+video 4: maquetacion
+v5 : configuracionFirebase
+1 requiere instalar dos dependencias
+2 npmjs.com
+3 firebase
+4 angular firebase bug
+npm install --savefirebase angularfire2
+5 ir a firebase.com
+6 acceder con cuenta de G+, crear un nuevo proyecto en Comenzar
+7 obtener el objeto, agregar primero la aplicación y luego en la seccion
+  firebase sdk nippet, obtener el objeto en redcdn
+8 copiar
+9 
