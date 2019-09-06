@@ -42,4 +42,16 @@ npm install --savefirebase angularfire2
 7 obtener el objeto, agregar primero la aplicación y luego en la seccion
   firebase sdk nippet, obtener el objeto en redcdn
 8 copiar
-9 
+9 en enviroment.ts y luego copiar la configuracion en prod.ts
+v6 creacion de service y registro de usuarios
+1 creacion del servicio para que se conecte a fireBase, crea la carpeta en src/app/ servicios
+2 importar las dependencias que se instalaron en el ts de oauth
+3 configurar el constructor
+4 configurar los metodos
+5 agregar al modulo principal el servicio
+  map, diferencia a la version angular 6, 
+  https://stackoverflow.com/questions/37208801/property-map-does-not-exist-on-type-observableresponse
+  127
+  map((response: any) => response.json()) to .pipe(map((response: any) => response.json()));
+6 en module.app //* importar para conectar a firebase
+7 configurar los metodos de inicio de sesione en firebase
