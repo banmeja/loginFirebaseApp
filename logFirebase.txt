@@ -55,3 +55,4 @@ v6 creacion de service y registro de usuarios
   map((response: any) => response.json()) to .pipe(map((response: any) => response.json()));
 6 en module.app //* importar para conectar a firebase
 7 configurar los metodos de inicio de sesione en firebase
+v7: creacion metodos inicio y cierre sesion
