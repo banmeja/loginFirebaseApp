@@ -61,4 +61,10 @@ https://codingpotions.com/angular-seguridad
 1 configurar guard
 2 agregar al modulo principal y en providers del modulo principal
 3 en el fichero de rutas, importa el authguard
+v9 notificaciones
+1 instalar npm install angular2-flash-messages --save
+2 en el modulo principar importar los ambos 
+3 modulos en import, los servicios en providers
+4 agregar al componente html principal flash
+5 noti en el registro
 
