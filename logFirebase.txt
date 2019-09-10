@@ -56,3 +56,9 @@ v6 creacion de service y registro de usuarios
 6 en module.app //* importar para conectar a firebase
 7 configurar los metodos de inicio de sesione en firebase
 v7: creacion metodos inicio y cierre sesion
+v8 ´proteger url, hay algunos metodos
+https://codingpotions.com/angular-seguridad
+1 configurar guard
+2 agregar al modulo principal y en providers del modulo principal
+3 en el fichero de rutas, importa el authguard
+
