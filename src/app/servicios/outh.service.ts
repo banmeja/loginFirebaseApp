@@ -30,6 +30,10 @@ export class OuthService {
     })
   }
 
+  loginGoogle(){
+    return this.afAuth.auth.signInWithPopup( new firebase.auth.GoogleAuthProvider());
+  }
+
   //app load, si el usurio esta log devolver data
   getAuth(){
     return this.afAuth.authState.pipe(map( auth => auth));
